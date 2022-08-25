@@ -1,6 +1,6 @@
 ----------
 
-Thu Aug 25 2022 15:43:19 GMT-0300 (Horário Padrão de Brasília)
+Thu Aug 25 2022 15:54:32 GMT-0300 (Horário Padrão de Brasília)
 
 usage: git config [<options>]
 
@@ -50,49 +50,50 @@ Other
 
 ----------
 
-Thu Aug 25 2022 15:43:19 GMT-0300 (Horário Padrão de Brasília)
+Thu Aug 25 2022 15:54:32 GMT-0300 (Horário Padrão de Brasília)
 
 fatal: not a git repository (or any of the parent directories): .git
 
 
 ----------
 
-Thu Aug 25 2022 15:43:19 GMT-0300 (Horário Padrão de Brasília)
+Thu Aug 25 2022 15:54:32 GMT-0300 (Horário Padrão de Brasília)
 
 fatal: not a git repository (or any of the parent directories): .git
 
 
 ----------
 
-Thu Aug 25 2022 15:43:19 GMT-0300 (Horário Padrão de Brasília)
+Thu Aug 25 2022 15:54:32 GMT-0300 (Horário Padrão de Brasília)
 
 fatal: not a git repository (or any of the parent directories): .git
 
 
 ----------
 
-Thu Aug 25 2022 15:45:03 GMT-0300 (Horário Padrão de Brasília)
+Thu Aug 25 2022 15:56:29 GMT-0300 (Horário Padrão de Brasília)
 
-fatal: not a git repository (or any of the parent directories): .git
-
-
-----------
-
-Thu Aug 25 2022 15:45:03 GMT-0300 (Horário Padrão de Brasília)
-
-fatal: not a git repository (or any of the parent directories): .git
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
 
 
 ----------
 
-Thu Aug 25 2022 15:45:03 GMT-0300 (Horário Padrão de Brasília)
+Thu Aug 25 2022 15:56:29 GMT-0300 (Horário Padrão de Brasília)
 
-fatal: not a git repository (or any of the parent directories): .git
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
 
 
 ----------
 
-Thu Aug 25 2022 15:45:51 GMT-0300 (Horário Padrão de Brasília)
+Thu Aug 25 2022 15:56:29 GMT-0300 (Horário Padrão de Brasília)
 
-Couldn't execute script C:\Users\goagu\Documents\GitHub\potestade.github.io\exportar.sh
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Thu Aug 25 2022 15:56:29 GMT-0300 (Horário Padrão de Brasília)
+
+warning: in the working copy of 'assets/js/lottie-player.min.js', LF will be replaced by CRLF the next time Git touches it
+
 

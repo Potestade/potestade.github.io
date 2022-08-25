@@ -268,3 +268,71 @@ To https://github.com/Potestade/potestade.github.io
    3bbc100..1762036  main -> main
 
 
+----------
+
+Thu Aug 25 2022 16:51:55 GMT-0300 (Horário Padrão de Brasília)
+
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Thu Aug 25 2022 16:51:55 GMT-0300 (Horário Padrão de Brasília)
+
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Thu Aug 25 2022 16:51:55 GMT-0300 (Horário Padrão de Brasília)
+
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Thu Aug 25 2022 16:51:55 GMT-0300 (Horário Padrão de Brasília)
+
+warning: in the working copy of 'assets/js/lottie-player.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Thu Aug 25 2022 16:51:55 GMT-0300 (Horário Padrão de Brasília)
+
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Thu Aug 25 2022 16:51:55 GMT-0300 (Horário Padrão de Brasília)
+
+warning: in the working copy of 'robots.txt', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Thu Aug 25 2022 16:51:55 GMT-0300 (Horário Padrão de Brasília)
+
+warning: in the working copy of 'sitemap.xml', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Thu Aug 25 2022 16:51:57 GMT-0300 (Horário Padrão de Brasília)
+
+To https://github.com/Potestade/potestade.github.io
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Potestade/potestade.github.io'
+
+
+----------
+
+Thu Aug 25 2022 16:51:57 GMT-0300 (Horário Padrão de Brasília)
+
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+

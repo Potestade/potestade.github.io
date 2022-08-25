@@ -3,16 +3,16 @@
   "name": "Potestade Desenvolvimento Web",
   "description": "Gilmar Web Design criação de sites profissionais WordPress e Bootstrap.",
   "author": "Gilmar",
-  "id": "/bss/gilmar/index.html",
+  "id": "/index.html",
   "icons": [
     {
-      "src": "/bss/gilmar/assets/img/logo_192.webp",
+      "src": "/assets/img/logo_192.webp",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "/bss/gilmar/assets/img/logo_512.webp",
+      "src": "/assets/img/logo_512.webp",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"

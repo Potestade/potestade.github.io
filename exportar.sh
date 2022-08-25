@@ -1,3 +1,3 @@
 git add --all
-git commit -m "Atualizacao"
+git commit -m "Atualização"
 git push -u origin main

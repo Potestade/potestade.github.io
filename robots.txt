@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://potestade.com.br/sitemap.xml

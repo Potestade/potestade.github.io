@@ -6,7 +6,6 @@
   right: 1rem;
   background: #ffffff;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.7)!important;
-  text-align: left;
   border-radius: 5px;
   display: none;
   width: 30%!important;
@@ -22,47 +21,28 @@
   }
 }
 
-@media (max-width: 576px) {
-  #lgpd-banner p {
-    margin-bottom: 0.6em!important;
-    margin-top: 0.9em!important;
-    letter-spacing: 0.017em;
-    line-height: 27px;
-    font-size: 1.19rem;
-  }
+#lgpd-banner.card-header {
+  background: rgb(0,0,0);
 }
 
-#lgpd-banner p {
-  display: block;
-  margin-block-start: 0.4em;
-  margin-block-end: 0.3em;
+#lgpd-banner.card-header .h5, h5 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#lgpd-banner .card-body .p, p {
   text-align: left;
-  text-indent: initial;
-  font-weight: 400;
-  color: #000;
-  padding: 0px;
   font-size: 1rem;
+  text-indent: 0!important;
+}
+
+#lgpd-banner .card-footer {
+  padding: 0 .5em .5em 0!important;
 }
 
 #lgpd-banner .btn {
-  --bs-btn-color: var(--bs-white);
-  --bs-btn-bg: var(--bs-black);
-  --bs-btn-border-width: var(--bs-border-width);
-  --bs-btn-border-color: var(--bs-black);
-  --bs-btn-border-radius: var(--bs-border-radius);
-  --bs-btn-hover-border-color: var(--bs-black);
-  --bs-btn-hover-color: var(--bs-black);
-  --bs-btn-hover-bg: var(--bs-white);
-  --bs-btn-focus-shadow-rgb: #1f1f1f!important;
   margin: .6em 0 0 0;
-  font-size: 1em;
-  font-weight: 400;
   border-radius: 5px;
-  padding: 0.5em 1.3em;
-}
-
-#lgpd-banner.card-header {
-  /*background-color: #000;*/
-  background: rgb(0,0,0);
+  padding: 0.3em 1.4em;
 }
 

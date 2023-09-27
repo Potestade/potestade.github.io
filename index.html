@@ -180,71 +180,20 @@
                 <div class="text-end"><input class="btn btn-primary" type="submit"></div>
             </form>
         </div>
-        <div class="container"><!-- <form action="https://potestade.com.br/FormMail.pl" method="post">
-<input type="hidden" name="subject" value="Assunto do e-mail" />
-<input type="hidden" name="recipient" value="dj.gilmar.sonorizacao@gmail.com" />
-<input type="hidden" name="redirect" value=https://potestade.com.br/index.html /> -->
-
-<form role="form" method="POST" action="https://potestade.com.br/FormMail.pl">
- 
-<div class="col-lg-6">
- 
-<div class="form-group">
- 
-<label for="inputName" required>Nome
- 
-<div class="input-group">
- 
-<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Nome completo" required>
- 
-<span class="input-group-addon">
- 
-</div></div></div>
- 
- 
-<div class="form-group">
- 
-<label for="InputEmail">E-mail
- 
-<div class="input-group">
- 
-<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="endereço de E-mail" required  >
- 
-<span class="input-group-addon">
- 
-</div></div>
- 
- 
-<div class="form-group">
- 
-<label for="InputMessage">Nos de seu feedback
- 
-<div class="input-group">
- 
-<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required>
- 
-<span class="input-group-addon">
- 
-</div></div>
- 
- 
-<input type="submit" name="submit" id="submit" value="Enviar mensagem" class="btn btn-primary">
- 
- 
-<!-- altere o campo "VALUE" inserindo seu o email do cominio configurado em @recipients do FormMail.pl-->
- 
-<input TYPE="hidden" NAME="recipient" VALUE="dj.gilmar.sonorizacao@gmail.com">
- 
-<input TYPE="hidden" NAME="subject" VALUE="Contato via Site">
- 
- 
-<!-- insira em "VALUE" a pagina para redirecionamento após o envio do formulário -->
- 
-<input TYPE="hidden" NAME="redirect" VALUE="potestade.com.br/index.html">
- 
-</div>
- 
-</form></div>
+        <div class="container">
+            <form role="form" method="POST" action="https://potestade.com.br/FormMail.pl">
+                <div class="col-lg-6">
+                    <div class="form-group"><label class="form-label form-label" for="inputName" required="">Nome</label></div>
+                    <div class="input-group"></div><input class="form-control form-control form-control" type="text" id="InputName" name="InputName" placeholder="Nome completo" required=""><span class="input-group-addon"></span>
+                    <div class="form-group"><label class="form-label form-label" for="InputEmail">E-mail</label>
+                        <div class="input-group"><input class="form-control form-control form-control" type="email" id="InputEmail" name="InputEmail" placeholder="endereço de E-mail" required=""><span class="input-group-text input-group-text input-group-addon"></span></div>
+                    </div>
+                </div>
+                <div class="form-group"><label class="form-label form-label" for="InputMessage">Nos de seu feedback</label>
+                    <div class="input-group"><textarea class="form-control form-control form-control" id="InputMessage" name="InputMessage" required="" rows="5"></textarea><span class="input-group-text input-group-text input-group-addon"></span></div>
+                </div><input class="btn btn-primary" type="submit" id="submit" name="submit" value="Enviar mensagem"><input type="hidden" name="recipient" value="dj.gilmar.sonorizacao@gmail.com"><input type="hidden" name="subject" value="Contato via Site"><input type="hidden" name="redirect" value="potestade.com.br/index.html">
+            </form>
+        </div>
     </section>
     <h3>Heading</h3>
     <h4>Heading</h4>

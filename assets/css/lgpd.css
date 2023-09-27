@@ -5,13 +5,12 @@
   left: 1rem;
   right: 1rem;
   background: #ffffff;
-  padding: 1.8rem 1rem 1rem 1rem;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.7)!important;
   text-align: left;
-  border: 1rem;
   border-radius: 5px;
   display: none;
   width: 30%!important;
+  border-color: #000000;
 }
 
 @media (max-width: 576px) {
@@ -20,7 +19,6 @@
     left: 5%;
     right: 5%;
     width: 90%!important;
-    padding: 1rem!important;
   }
 }
 
@@ -43,6 +41,28 @@
   font-weight: 400;
   color: #000;
   padding: 0px;
-  font-size: 1.4rem;
+  font-size: 1rem;
+}
+
+#lgpd-banner .btn {
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bs-black);
+  --bs-btn-border-width: var(--bs-border-width);
+  --bs-btn-border-color: var(--bs-black);
+  --bs-btn-border-radius: var(--bs-border-radius);
+  --bs-btn-hover-border-color: var(--bs-black);
+  --bs-btn-hover-color: var(--bs-black);
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-focus-shadow-rgb: #1f1f1f!important;
+  margin: .6em 0 0 0;
+  font-size: 1em;
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 0.5em 1.3em;
+}
+
+#lgpd-banner.card-header {
+  /*background-color: #000;*/
+  background: rgb(0,0,0);
 }
 

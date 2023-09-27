@@ -24,7 +24,7 @@
 }
 
 #lgpd-banner .lgpd-banner-card-header {
-  background-color: #ff0000!important;
+  background-color: #000000!important;
 }
 
 .lgpd-banner-card-body {
@@ -37,14 +37,14 @@
 }
 
 .lgpd-banner-h5 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   color: #ffffff;
 }
 
 .lgpd-banner-p {
   text-align: left;
-  font-size: .8rem;
+  font-size: 1rem;
   text-indent: 0!important;
 }
 

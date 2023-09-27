@@ -71,6 +71,12 @@ a:hover {
   color: #888888;
 }
 
+#footer .cnpj {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
 #footer .copyright {
   border-top: 1px solid #888888;
   text-align: center;

@@ -26,6 +26,7 @@ a:hover {
   border-top: 4px solid #888888;
   text-align: center;
   padding: 30px 20px;
+  box-shadow: 2px 2px 3px 3px #252525;
 }
 
 #footer .footer-top .footer-info p {

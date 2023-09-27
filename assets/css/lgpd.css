@@ -48,6 +48,13 @@
   text-indent: 0!important;
 }
 
+.lgpd-banner-a {
+  text-align: left;
+  font-size: 1rem;
+  text-indent: 0!important;
+  color: #000000;
+}
+
 .lgpd-banner-btn {
   margin: .6em 0 0 0;
   border-radius: 5px;

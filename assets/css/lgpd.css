@@ -5,10 +5,13 @@
   left: 1rem;
   right: 1rem;
   background: #ffffff;
-  padding: 1rem;
+  padding: 1.8rem 1rem 1rem 1rem;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.7)!important;
   text-align: left;
   border: 1rem;
+  border-radius: 1rem;
+  display: none;
+  width: 30%!important;
 }
 
 @media (max-width: 576px) {
@@ -18,9 +21,6 @@
     right: 5%;
     width: 90%!important;
     padding: 1rem!important;
-    text-align: left;
-    display: none;
-    border-radius: 1rem;
   }
 }
 
@@ -44,5 +44,15 @@ p {
   color: #000;
   padding: 0px;
   font-size: 1.4rem;
+}
+
+#lgpd-banner .btn {
+  margin: 10px 0px 0px 0px;
+  font-size: 1em;
+  font-weight: 400;
+  --bs-btn-focus-shadow-rgb: #1f1f1f!important;
+  border-radius: 5px;
+  padding: 0.5em 1.3em;
+  margin-top: 2em;
 }
 

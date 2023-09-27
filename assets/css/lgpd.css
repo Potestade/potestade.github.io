@@ -10,6 +10,8 @@
   display: none;
   width: 20%!important;
   border-color: #000000;
+  padding: 0;
+  margin: 0;
 }
 
 @media (max-width: 576px) {
@@ -35,20 +37,21 @@
 }
 
 .lgpd-banner-h5 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
-  color: rgb(255,255,255);
+  color: #ffffff;
 }
 
 .lgpd-banner-p {
   text-align: left;
-  font-size: 1rem;
+  font-size: .8rem;
   text-indent: 0!important;
 }
 
-#lgpd-banner .btn {
+.lgpd-banner-btn {
   margin: .6em 0 0 0;
   border-radius: 5px;
   padding: 0.3em 1.4em;
+  font-size: .8rem;
 }
 

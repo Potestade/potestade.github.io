@@ -65,6 +65,23 @@ p {
   font-size: 20px;
   font-weight: 400;
   --bs-btn-focus-shadow-rgb: #1f1f1f!important;
+  border-radius: 15px;
+}
+
+.button {
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bs-black);
+  --bs-btn-border-width: var(--bs-border-width);
+  --bs-btn-border-color: var(--bs-black);
+  --bs-btn-border-radius: var(--bs-border-radius);
+  --bs-btn-hover-border-color: var(--bs-black);
+  --bs-btn-hover-color: var(--bs-black);
+  --bs-btn-hover-bg: var(--bs-white);
+  margin: 30px 0px 0px 0px;
+  font-size: 20px;
+  font-weight: 400;
+  --bs-btn-focus-shadow-rgb: #1f1f1f!important;
+  border-radius: 15px;
 }
 
 @media (min-width: 768px) {

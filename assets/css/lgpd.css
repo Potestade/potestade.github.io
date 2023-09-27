@@ -2,13 +2,13 @@
   position: fixed;
   z-index: 3;
   bottom: 2rem;
-  left: 1rem;
-  right: 1rem;
+  left: 40%;
+  right: 40%;
   background: #ffffff;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.7)!important;
   border-radius: 5px;
   display: none;
-  width: 30%!important;
+  width: 20%!important;
   border-color: #000000;
 }
 
@@ -21,23 +21,29 @@
   }
 }
 
-#lgpd-banner.card-header {
+.lgpd-banner-card-header {
   background: rgb(0,0,0);
 }
 
-#lgpd-banner.card-header .h5, h5 {
-  font-size: 1.2rem;
-  text-align: center;
+.lgpd-banner-card-body {
+  padding: .5em!important;
 }
 
-#lgpd-banner .card-body .p, p {
+.lgpd-banner-card-footer {
+  padding: 0 .5em .5em 0!important;
+  text-align: right!important;
+}
+
+.lgpd-banner-h5 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(255,255,255);
+}
+
+.lgpd-banner-p {
   text-align: left;
   font-size: 1rem;
   text-indent: 0!important;
-}
-
-#lgpd-banner .card-footer {
-  padding: 0 .5em .5em 0!important;
 }
 
 #lgpd-banner .btn {

@@ -14,11 +14,13 @@
 @media (max-width: 576px) {
   #lgpd-banner {
     bottom: 1rem;
-    left: initial;
-    right: initial;
-    padding: initial;
+    left: 5%;
+    right: 5%;
     width: 90%!important;
     padding: 1rem!important;
+    text-align: left;
+    display: none;
+    border-radius: 1rem;
   }
 }
 

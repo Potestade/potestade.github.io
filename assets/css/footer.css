@@ -73,8 +73,8 @@ a:hover {
 
 #footer .cnpj {
   text-align: center;
-  padding-bottom: 50px;
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 #footer .copyright {

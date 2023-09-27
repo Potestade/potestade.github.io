@@ -62,12 +62,11 @@ p {
   --bs-btn-hover-color: var(--bs-black);
   --bs-btn-hover-bg: var(--bs-white);
   --bs-btn-focus-shadow-rgb: #1f1f1f!important;
-  margin: 10px 0px 0px 0px;
+  margin: 2em 0 0 0;
   font-size: 1em;
   font-weight: 400;
   border-radius: 5px;
   padding: 0.5em 1.3em;
-  margin-top: 2em;
 }
 
 .button {
@@ -80,12 +79,11 @@ p {
   --bs-btn-hover-color: var(--bs-black);
   --bs-btn-hover-bg: var(--bs-white);
   --bs-btn-focus-shadow-rgb: #1f1f1f!important;
-  margin: 10px 0px 0px 0px;
+  margin: 2em 0 0 0;
   font-size: 1em;
   font-weight: 400;
   border-radius: 5px;
   padding: 0.5em 1.3em;
-  margin-top: 2em;
 }
 
 @media (min-width: 768px) {

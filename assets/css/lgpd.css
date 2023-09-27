@@ -5,7 +5,6 @@
   left: 1rem;
   right: 1rem;
   background: #ffffff;
-  text-align: center;
   padding: 1rem;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.7)!important;
   text-align: left;
@@ -15,8 +14,8 @@
 @media (max-width: 576px) {
   #lgpd-banner {
     bottom: 1rem;
-    left: 1rem;
-    right: 1rem;
+    left: initial;
+    right: initial;
     padding: initial;
     width: 90%!important;
     padding: 1rem!important;

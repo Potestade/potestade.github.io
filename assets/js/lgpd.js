@@ -1,39 +1,11 @@
-function setCookie(cname, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  }
+// JavaScript para obter a largura do container
+  var container = document.getElementById('myContainer');
+  var containerWidth = window.getComputedStyle(container).getPropertyValue('width');
   
-  function getCookie(cname) {
-    var name = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i <ca.length; i++) {
-      var c = ca[i];
-      while (c.charAt(0) == ' ') {
-        c = c.substring(1);
-      }
-      if (c.indexOf(name) == 0) {
-        return c.substring(name.length, c.length);
-      }
-    }
-    return "";
-  }
+  // Exibir a largura do container em um elemento de texto
+  var larguraTexto = document.getElementById('larguraTexto');
+  larguraTexto.textContent = 'Largura do container: ' + containerWidth;
   
-  function acceptLGPD() {
-    setCookie("lgpd_accepted", "true", 365);// for development change 365 to 0.00005787   (approx 5 seconds) 
-
-    document.getElementById("lgpd-banner").style.display = "none";
-  }
-  
-  function checkLGPD() {
-    var lgpd_accepted = getCookie("lgpd_accepted");
-    if (lgpd_accepted != "") {
-      document.getElementById("lgpd-banner").style.display = "none";
-    } else {
-      document.getElementById("lgpd-banner").style.display = "block";
-    }
-  }
-
-  checkLGPD();
+  // Usar o valor da largura do container para definir a largura do card
+  var card = document.getElementById('myCard');
+  card.style.width = containerWidth;

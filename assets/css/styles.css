@@ -14,8 +14,8 @@ p {
 
 @media (max-width: 576px) {
   p {
-    margin-bottom: 0.6em!important;
-    margin-top: 0.9em!important;
+    margin-bottom: 0.6em !important;
+    margin-top: 0.9em !important;
     letter-spacing: 0.017em;
     line-height: 27px;
     font-size: 1.19rem;
@@ -61,7 +61,7 @@ p {
   --bs-btn-hover-border-color: var(--bs-black);
   --bs-btn-hover-color: var(--bs-black);
   --bs-btn-hover-bg: var(--bs-white);
-  --bs-btn-focus-shadow-rgb: #1f1f1f!important;
+  --bs-btn-focus-shadow-rgb: #1f1f1f !important;
   margin: 2em 0 0 0;
   font-size: 1em;
   font-weight: 400;
@@ -78,7 +78,7 @@ p {
   --bs-btn-hover-border-color: var(--bs-black);
   --bs-btn-hover-color: var(--bs-black);
   --bs-btn-hover-bg: var(--bs-white);
-  --bs-btn-focus-shadow-rgb: #1f1f1f!important;
+  --bs-btn-focus-shadow-rgb: #1f1f1f !important;
   margin: 2em 0 0 0;
   font-size: 1em;
   font-weight: 400;
@@ -126,7 +126,7 @@ body {
   background-color: var(--bs-body-bg);
   border-color: #252525;
   outline: 0;
-  box-shadow: 0 0 0 .25rem rgba(24,24,24,0.25);
+  box-shadow: 0 0 0 .25rem rgba(24, 24, 24, 0.25);
 }
 
 /* --------------------------------------------------------------
@@ -164,5 +164,56 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* Contato */
+
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #000000;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all .3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #000000;
+  text-align: left;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #000000;
+}
+
+.contact .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  background: #252525;
+  color: #fff;
+}
+
+.esquerda {
+  margin: 0;
+  padding: 0;
 }
 

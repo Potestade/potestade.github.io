@@ -114,9 +114,11 @@ body {
 }
 
 .hero {
-  height: 30vh;
+  height: 8vh;
   justify-content: center;
   align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .form-control:focus {

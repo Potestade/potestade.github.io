@@ -1,3 +1,5 @@
+(function() {
+  "use strict";
 /* Preloader */
   let preloader = select('#preloader');
   if (preloader) {
@@ -13,3 +15,4 @@ window.addEventListener('load', () => {
       mirror: false
     })
   });
+})()

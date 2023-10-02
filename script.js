@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Exibe as postagens
             lastThreeFiles.forEach((fileName) => {
-                const postUrl = fileName;
+                const postUrl = blogDirectory + fileName;
 
                 // Carrega e exibe a postagem
                 fetch(postUrl)

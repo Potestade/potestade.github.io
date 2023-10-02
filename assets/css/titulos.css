@@ -1,0 +1,61 @@
+/* * Títulos * */
+
+.h1, .h2, .h3, .h4, h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+}
+
+h2::before {
+  margin: 0 15px 8px 0;
+}
+
+h2::after {
+  margin: 0 0 8px 15px;
+}
+
+h2::before, h2::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background: #888888;
+  display: inline-block;
+}
+
+/* CONFIGURACOES DO RODAPE */
+
+.h5, .h6, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.h5, h5 {
+  font-size: calc(1.275rem + .3vw);
+}
+
+@media (min-width:1200px) {
+  .h5, h5 {
+    font-size: 1.5rem;
+  }
+}
+
+#footer .footer-top h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.h6, h6 {
+  text-align: center;
+  color: #ffffff;
+  font-size: calc(0.9rem + 0.1vw);
+}
+
+/* Fim das configuracoes do rodape */
+

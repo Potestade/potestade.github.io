@@ -8,17 +8,41 @@
   text-transform: uppercase;
 }
 
+.h1, h1 {
+  font-size: calc(1.2rem + 1.5vw);
+}
+
+.h2, h2 {
+  font-size: calc(1rem + 1vw);
+}
+
+.h3, h3 {
+  font-size: calc(.9rem + .7vw);
+  text-align: left;
+}
+
+.h4, h4 {
+  font-size: calc(.9rem + .2vw);
+  color: #ffffff;
+}
+
+.h5, h5 {
+  text-align: center;
+  color: #ffffff;
+  font-size: calc(.8rem + 0.2vw);
+}
+
 h2::before {
-  margin: 0 15px 8px 0;
+  margin: 0 5px 5px 0;
 }
 
 h2::after {
-  margin: 0 0 8px 15px;
+  margin: 0 0 5px 5px;
 }
 
 h2::before, h2::after {
   content: "";
-  width: 50px;
+  width: 30px;
   height: 5px;
   background: #888888;
   display: inline-block;
@@ -29,33 +53,18 @@ h2::before, h2::after {
 .h5, .h6, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
-  font-weight: 500;
   line-height: 1.2;
-}
-
-.h5, h5 {
-  font-size: calc(1.275rem + .3vw);
 }
 
 @media (min-width:1200px) {
   .h5, h5 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
 #footer .footer-top h5 {
-  font-size: 16px;
-  font-weight: 600;
   color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
-
-.h6, h6 {
-  text-align: center;
-  color: #ffffff;
-  font-size: calc(0.9rem + 0.1vw);
-}
-
-/* Fim das configuracoes do rodape */
 

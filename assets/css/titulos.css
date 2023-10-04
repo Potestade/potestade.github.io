@@ -13,7 +13,7 @@
 }
 
 .h2, h2 {
-  font-size: calc(1rem + 1vw);
+  font-size: calc(.9rem + 0.8vw);
 }
 
 .h3, h3 {

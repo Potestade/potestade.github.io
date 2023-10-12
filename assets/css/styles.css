@@ -153,14 +153,6 @@ h2 {
 
 /* Definições de Exibição */
 
-@media (min-width: 1930px) {
-  .max1400 {
-    margin-left: 20%;
-    margin-right: 20%;
-    max-width: 60%;
-  }
-}
-
 @media (min-width: 300px) {
   #header {
     height: 100vh;

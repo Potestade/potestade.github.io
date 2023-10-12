@@ -23,7 +23,7 @@
   /*border-bottom: 3px solid rgba(253,193,52,0.8);*/
   border-top: 3px solid rgba(253,193,52,0.8);
   padding: 8px 0px;
-  margin-top: 5px;
+  margin-top: 40px;
 }
 
 ol, ul {
@@ -159,7 +159,7 @@ img, svg {
 #footer .footer-top .footer-info .form-label {
   text-align: left;
   display: flex;
-  padding-bottom: 10px;
+  /*padding-bottom: 2px;*/
   font-size: 16px;
   color: #fdc134;
 }
@@ -245,6 +245,12 @@ img, svg {
 
 .form-control {
   background-color: #000356;
+  text-align: left;
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #fdc134;
+  border: var(--bs-border-width) solid #5c4e2e;
 }
 
 .form-control:focus {
@@ -258,10 +264,5 @@ img, svg {
 .form-control::placeholder {
   color: rgba(253,193,52,0.8);
   opacity: 1;
-}
-
-.form-control {
-  color: #fdc134;
-  border: var(--bs-border-width) solid #5c4e2e;
 }
 

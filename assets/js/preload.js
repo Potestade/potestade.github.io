@@ -4,5 +4,5 @@ document.addEventListener("DOMContentLoaded", function() {
         // Remova a tela de preload e exiba o conteúdo principal
         document.querySelector(".preload").style.display = "none";
         document.querySelector(".content").style.display = "block";
-    }, 700);
+    }, 650);
 });

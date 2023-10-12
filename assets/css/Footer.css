@@ -109,8 +109,8 @@ img, svg {
 
 @media (min-width:768px) {
   .col-md-12 {
-    flex: 0 0 auto;
-    width: 100%;
+    /*flex: 0 0 auto;*/
+    /*width: 100%;*/
   }
 }
 
@@ -123,8 +123,8 @@ img, svg {
 
 @media (min-width:992px) {
   .col-lg-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
+    /*flex: 0 0 auto;*/
+    /*width: 33.33333333%;*/
   }
 }
 

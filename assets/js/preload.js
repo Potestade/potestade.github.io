@@ -43,7 +43,7 @@
                 document.querySelector(".content").style.display = "block";
                 // Defina um cookie para registrar que o preload foi exibido
                 setCookie("preload_shown", "true", 365); // Valores podem ser ajustados
-            }, 2000);
+            }, 650);
         } else {
             // Se o preload já foi exibido, apenas exiba o conteúdo principal
             document.querySelector(".preload").style.display = "none";

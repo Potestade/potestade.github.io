@@ -112,6 +112,11 @@
 
 .form-control::placeholder {
   color: #000341;
-  opacity: 1;
+  background: #ffffff;
+}
+
+div.col-md-12 > div.footer-info > form.py-2 > input.form-control {
+  color: #000341;
+  background: #ffffff;
 }
 

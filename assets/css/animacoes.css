@@ -610,8 +610,24 @@
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-  animation-duration: 1s;
-  animation-delay: 1.2s;
+  animation-delay: 1s;
+}
+
+@keyframes myfadeIn {
+  0%, 40% {
+    opacity: 0;
+    animation-name: myfadeIn;
+    background-image: linear-gradient(#000341, #000341);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.myfadeIn {
+  -webkit-animation-name: myfadeIn;
+  animation-name: myfadeIn;
+  animation-duration: .6s;
 }
 
 @keyframes fadeInDown {

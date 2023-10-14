@@ -1,0 +1,123 @@
+#footer p {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 12px;
+  border-top: 3px solid rgba(253,193,52,0.8);
+  padding: 8px 0px;
+  margin-top: 40px;
+}
+
+#footer {
+  color: #fdc134;
+  font-size: 14px;
+  background: #000341;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px;
+}
+
+#footer .footer-top .footer-info {
+  background: #02033d;
+  color: #fff;
+  border-top: 4px solid rgba(253,193,52,0.8);
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin: 5px 0 30px;
+}
+
+#footer .footer-top .footer-info .form-label {
+  text-align: left;
+  display: flex;
+  font-size: 16px;
+  color: #fdc134;
+  margin-bottom: 20px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 24px;
+  margin: 0 0 10px;
+  padding: 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: .3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #fdc134;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #ffffff;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #fdc134;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  border-top: 3px solid rgba(253,193,52,0.8);
+  border-radius: 12px;
+}
+
+.form-control {
+  background-color: #ffffff;
+  text-align: left;
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #fdc134;
+  border: var(--bs-border-width) solid #000341;
+}
+
+.form-control:focus {
+  color: rgb(0,3,65);
+  background-color: #ffffff;
+  border-color: #000341;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  color: #000341;
+  background: #ffffff;
+}
+
+div.col-md-12 > div.footer-info > form.py-2 > input.form-control {
+  color: #000341;
+  background: #ffffff;
+}
+

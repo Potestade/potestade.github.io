@@ -100,7 +100,7 @@ h2 {
 }
 
 .navbar-toggler-icon {
-  background: url("../../assets/img/botoes/icon-toggle.svg");
+  background: url("/assets/img/botoes/icon-toggle.svg");
   box-shadow: none;
 }
 
@@ -174,11 +174,11 @@ h2 {
 }
 
 #btn-close {
-  background: url("../../assets/img/botoes/btn-close.svg");
+  background: url("/assets/img/botoes/btn-close.svg");
 }
 
 .sectionHero {
-  background: url("../../assets/img/fundos/fundo-azul.webp") top left / cover no-repeat;
+  background: url("/assets/img/fundos/fundo-azul.webp") top left / cover no-repeat;
 }
 
 .heroH2 {

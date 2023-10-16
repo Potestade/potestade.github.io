@@ -891,11 +891,12 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/cta-bg.webp") no-repeat;
+  background: url("../img/cta-bg.webp") no-repeat;  
   background-position: center center;
   background-size: cover;
   position: relative;
 }
+
 .testimonials::before {
   content: "";
   position: absolute;

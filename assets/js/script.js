@@ -297,13 +297,17 @@
 */
 
 document.addEventListener('DOMContentLoaded', function () {
-  // Carregue as imagens de fundo ocultas
+  // Carregar imagens de fundo ocultas
   const lazyBackgrounds = document.querySelectorAll('.lazy-load');
 
   lazyBackgrounds.forEach(function (lazyBackground) {
-      if (lazyBackground.dataset.bg) {
-          lazyBackground.style.backgroundImage = `url('${lazyBackground.dataset.bg}')`;
-      }
+    const imageSrc = lazyBackground.getAttribute('data-src');
+    lazyBackground.style.backgroundImage = `url('${imageSrc}')`;
+  });
+
+  // Exibir as imagens de fundo
+  lazyBackgrounds.forEach(function (lazyBackground) {
+    lazyBackground.style.display = 'block';
   });
 });
 

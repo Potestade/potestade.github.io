@@ -292,6 +292,21 @@
   new PureCounter();
 })();
 
+/*
+*   Image Lazy Loading CSS
+*/
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Carregue as imagens de fundo ocultas
+  const lazyBackgrounds = document.querySelectorAll('.lazy-load');
+
+  lazyBackgrounds.forEach(function (lazyBackground) {
+      if (lazyBackground.dataset.bg) {
+          lazyBackground.style.backgroundImage = `url('${lazyBackground.dataset.bg}')`;
+      }
+  });
+});
+
 
 /*
 *   FIM
